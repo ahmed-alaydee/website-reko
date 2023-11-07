@@ -1,0 +1,564 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+::selection{
+    background-color: rgba(0, 11, 22, 0.808);
+    color: #fff;
+}
+
+#header{
+    height: 100vh;
+    background-image: url(images/background.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+/*start-section-container*/
+
+.contaainer{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.contaainer .logo{
+margin-top: 30px;
+width: 100px;
+
+}
+
+
+.header-text{
+max-width: 350px;
+margin-top: 140px;
+
+}
+
+.header-text h1{
+font-size: 34px;
+
+
+}
+
+.btn{
+margin-top: 20px;
+margin-bottom: 60px;
+padding: 18px 40px;
+background-color:transparent;
+outline: navajowhite;
+border: 2px solid rgb(247, 3, 174);
+font-weight: bold;
+cursor: pointer;
+border-radius: 12px;
+transition: 0.7s ease-out;
+
+}
+
+.btn:hover{
+background-color: rgba(253, 0, 219, 0.685);
+transform: scale(1.1);
+
+}
+
+.header-text p{
+font-size:15px;
+line-height: 18px;
+color: gray;
+
+
+}
+
+.square{
+height: 12px;
+width: 12px;
+background-color: rgb(14, 0, 9);
+display: inline-block;
+margin: 15px 0;
+transition: 1s step-end;
+
+
+}
+
+
+
+.line .laine-1,.line-p .laine-1{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(254, 129, 217);
+    display: inline-block;
+}
+
+
+.line .laine-2,.line-p .laine-2{
+    width: 70px;
+    height: 1px;
+    background-color: rgb(254, 129, 217);
+    display: inline-block;
+}
+
+.line .laine-3,.line-p .laine-3{
+    width: 110px;
+    height: 2px;
+    background-color: rgb(158, 0, 111);
+    display: inline-block;
+}
+
+.laine-4{
+
+    width: 130px;
+    height: 2.5px;
+    background-color: rgb(10, 0, 7);
+    display: inline-block;
+}
+/*End-section-container*/
+
+/*start-nav*/
+#saidnav{
+    width: 250px;
+    height: 100vh;
+    background-color: rgba(254, 129, 216, 0.712);
+    position: fixed;
+    top:0;
+    right: -250px;
+    z-index:2 ;
+    transition: 2s ease;
+}
+
+nav ul li{
+    list-style: none;
+    margin:50px 20px ;
+    transition: 2s;
+    border: 4px dotted white;
+    padding: 8px 10px;
+    border-radius: 15px;
+    text-align: center;
+transition: 0.5s ease;
+}
+
+nav ul li:hover{
+transform: scale(1.2);
+border: 4px solid blueviolet;
+}
+
+nav ul li a{
+text-decoration: none;
+color:black;
+font-weight:500;
+
+}
+
+
+
+
+
+
+
+/*end-nav*/
+
+
+#munuBtn{
+position: fixed;
+top: 10px;
+right:40px;
+width: 40px;
+border: 2px dotted #fff;
+border-radius: 10px;
+background-color: rgb(255, 127, 255);
+z-index: 3;
+cursor: pointer;
+
+}
+
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+
+/*start-about.*/
+
+
+#about-us,#offer{
+padding:100px  0;
+display: flex;
+align-items: center;
+flex-wrap:wrap ;
+}
+
+
+.about-left{
+flex-basis: 50%;
+
+    
+}
+
+.about-left img{
+width: 100%;
+
+}
+
+
+
+.about-right{
+
+flex-basis: 50%;
+text-align: right;
+
+}
+
+.about-text {
+ max-width: 500px;
+margin-right: 90px;
+display: inline-block;
+
+}
+
+
+
+.about-text h1{
+
+    font-size: 35px;
+}
+.about-text h2{
+
+font-style:italic ;
+margin-top: 15px;
+}
+
+
+.about-text h3{
+padding: 10px 5px;
+font-size: 25px;
+font-weight: 900;
+    color:rgb(17, 0, 0);
+}
+
+
+.about-text p{
+color: gray;
+
+}
+
+/*end-about.*/
+
+
+
+
+
+/*satart-feature*/
+
+#features{
+    padding-top:50px;
+    padding-bottom: 50px;
+
+}
+
+
+ .feature-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    width: 80%;
+    margin: auto;
+}
+
+
+.featur-col {
+
+flex-basis: 25%;
+text-align: center;
+}
+
+.featur-col img{
+    width:100px;
+  
+}
+
+
+.featur-col h4{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+
+
+.feature-btn{
+
+margin: 80px auto 0;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.feature-btn .line{
+text-align: right;
+display: inline-block;
+margin-right: 25px;
+padding-bottom: 5px;
+
+}
+
+/*End-feature*/
+
+
+
+
+
+
+/*
+<!--start--courses-->
+*/
+
+
+
+#courses{
+    padding: 100px 0;
+    
+
+}
+
+.contaniar-co{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+
+.coures-right{
+ flex-basis: 50%;
+}
+
+
+.coures-right img{
+    
+    width: 100%;
+}
+
+
+.coures-left{
+flex-basis: 50%;
+
+
+}
+
+
+.courses-text{
+margin-left: 50px;
+max-width: 350px;
+
+}
+
+
+.courses-text p{
+color: gray;
+letter-spacing: 1px;
+font-size: 20px;
+
+}
+
+.courses-text .button{
+margin: 30px 0 20px 0;
+padding: 5px;
+
+}
+
+/*
+<!--end--courses-->
+*/
+
+
+
+
+
+/*<!---star-Contact-As-->*/
+
+
+#cotact{
+padding: 100px 0;
+}
+
+.contactAs{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-left{
+flex-basis: 50%;
+
+}
+
+.contact-rught{
+    flex-basis: 50%;
+}
+ img {
+    width: 100%;
+
+}
+
+form{
+max-width: 350px;
+margin: 30px 0;
+padding-left: 100px;
+width: 100%;
+
+}
+
+
+
+form input{
+width: 100%;
+padding: 15px 10px;
+margin: 5px 0;
+border-radius: 8px;
+border: 2px solid rgb(255, 0, 221);
+outline: none;
+box-shadow: none;
+box-sizing: border-box;
+
+
+}
+
+ .btn-sgin{
+width: 100%;
+display: flex;
+justify-content: space-between;
+
+}
+.btn-sgin .btn{
+flex-wrap: wrap;
+flex-basis: 47%;
+padding: 18px 0;
+}
+
+
+.contact-left h1{
+    margin-left:100px ;
+
+}
+
+.line-p{
+    margin-left: 100px;
+
+}
+h1{
+font-style: italic;
+font-size: 35px;
+font-weight: 600;
+
+}
+
+
+
+/*<!---end-Contact-As-->*/
+
+
+/* start-footer*/
+
+
+hr{
+width: 100%;
+margin:35px 0px;
+
+}
+
+
+
+.contaniar {
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px 60px;
+}
+
+
+
+.footer-right{
+
+flex-basis: 35%;
+}
+
+.footer-left{
+  flex-basis: 50%;
+    margin-top: 60px;
+}
+
+.footer-links{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+
+}
+
+.linkes-titel{
+    color: rgb(255, 0, 234);
+}
+
+.linkes-titel small{
+    color: gray;
+}
+
+.footr-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-logo img{
+width: 80px;
+
+}
+
+.copy-wrighr,.footer-logo{
+    flex-basis: 40%;
+
+
+}
+
+
+
+/* end-footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
